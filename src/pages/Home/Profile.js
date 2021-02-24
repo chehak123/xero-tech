@@ -7,9 +7,9 @@ import DecoderText from 'components/DecoderText';
 import Divider from 'components/Divider';
 import Image from 'components/Image';
 import Section from 'components/Section';
-import ProfileImg from 'assets/profile.jpg';
-import ProfileImgLarge from 'assets/profile-large.jpg';
-import ProfileImgPlaceholder from 'assets/profile-placeholder.jpg';
+import ProfileImg from 'assets/scene2.jpg';
+import ProfileImgLarge from 'assets/scene2.jpg';
+import ProfileImgPlaceholder from 'assets/scene2.jpg';
 import { reflow } from 'utils/transition';
 import { media } from 'utils/style';
 import { ReactComponent as KatakanaProfile } from 'assets/katakana-profile.svg';
@@ -30,18 +30,17 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you're interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Chehak, currently I live in Delhi currently a sophomore at Delhi Technological University{' '}
+      <Link href="http://dtu.ac.in/">(DTU)</Link>. My interests include competitive programming and web development. I 
+      have contributo in open source programs both as a participant and mentor. 
+      / {/* <Link href="/uses">uses page</Link>. */}
     </Text>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
+      In my spare time I like to improve my skills, play video games, and{' '}
+      <Link href="/projects/volkihar-knight">read novels</Link>. I’m always down for hearing
       about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
