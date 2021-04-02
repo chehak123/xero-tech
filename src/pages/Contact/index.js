@@ -118,7 +118,7 @@ const Contact = () => {
                   style={getDelay(tokens.base.durationXS, initDelay, 0.3)}
                 >
                   <DecoderText
-                    text="Say hello"
+                    text="Get In Touch with Us"
                     start={status !== 'exited' && !prerender}
                     delay={300}
                   />
@@ -194,6 +194,21 @@ const Contact = () => {
                   type="submit"
                 >
                   Send Message
+                </Button>
+
+                <Button
+                  className={classNames('contact__button', `contact__button--${status}`, {
+                    'contact__button--hidden': prerender,
+                    'contact__button--sending': sending,
+                  })}
+                  style={getDelay(tokens.base.durationM, initDelay)}
+                  disabled={sending}
+                  loading={sending}
+                  loadingText="Sending..."
+                  icon="send"
+                  type="submit"
+                >
+                  Xero
                 </Button>
               </form>
             )}

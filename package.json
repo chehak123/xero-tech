@@ -26,7 +26,7 @@
     "stylelint": "^13.8.0",
     "stylelint-config-recommended": "^3.0.0",
     "@types/node": "latest",
-"typescript": "latest"
+    "typescript": "latest"
   },
   "dependencies": {
     "@mdx-js/react": "^1.6.22",
@@ -39,10 +39,9 @@
     "react-transition-group": "^4.4.1",
     "three": "^0.124.0",
     "uninstall-all-modules": "^1.0.5",
-"discord.js": "latest",
-"getopts": "latest",
-"glob": "latest"
-
+    "discord.js": "latest",
+    "getopts": "latest",
+    "glob": "latest"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -4,10 +4,10 @@ import './index.css';
 const Footer = () => (
   <footer className="footer">
     <span className="footer__date">
-      {`© ${new Date().getFullYear()} Hamish Williams.`}
+      {`© Xero Technologies ${new Date().getFullYear()}`}
     </span>
     <Link secondary className="footer__link" href="/humans.txt" target="_self">
-      Crafted by yours truly
+      Crafted by Hamish Williams
     </Link>
   </footer>
 );

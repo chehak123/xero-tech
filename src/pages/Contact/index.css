@@ -175,6 +175,7 @@
   transition-timing-function: var(--bezierFastoutSlowin);
   transition-delay: var(--delay);
   transition-duration: var(--durationXL);
+  margin-right: 10px;
   opacity: 0;
   justify-self: flex-start;
 

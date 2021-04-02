@@ -185,18 +185,13 @@ const Home = () => {
         buttonText="View Website"
         buttonLink="https://gamestackapp.com"
         model={{
-          type: 'phone',
-          alt: 'App login screen',
+          type: 'laptop',
+          alt: 'Smart Sparrow lesson builder',
           textures: [
             {
-              src: gamestackTexture,
-              srcSet: `${gamestackTexture} 254w, ${gamestackTextureLarge} 508w`,
-              placeholder: gamestackTexturePlaceholder,
-            },
-            {
-              src: gamestackTexture2,
-              srcSet: `${gamestackTexture2} 254w, ${gamestackTexture2Large} 508w`,
-              placeholder: gamestackTexture2Placeholder,
+              src: sprTexture,
+              srcSet: `${sprTexture} 700w, ${sprTextureLarge} 1240w`,
+              placeholder: sprTexturePlaceholder,
             },
           ],
         }}
